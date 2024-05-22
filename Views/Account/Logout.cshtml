@@ -1,0 +1,9 @@
+﻿@{
+    ViewData["Title"] = "Logout";
+}
+
+@using (Html.BeginForm("LogoutConfirmed", "Account", FormMethod.Post))
+{
+    <h1 class="display-6 mt-5">Are you sure you want to logout?</h1>
+    <button type="submit" class="btn button-primary mt-2">Logout</button>
+}

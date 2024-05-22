@@ -1,0 +1,341 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/endritjakupi/Desktop/TheScouts/TheScouts/obj/Debug/net7.0/scopedcss/projectbundle/TheScouts.bundle.scp.css",
+      "PackagePath": "staticwebassets/TheScouts.bundle.scp.css"
+    },
+    {
+      "Id": "/Users/endritjakupi/Desktop/TheScouts/TheScouts/wwwroot/.DS_Store",
+      "PackagePath": "staticwebassets/.DS_Store"
+    },
+    {
+      "Id": "/Users/endritjakupi/Desktop/TheScouts/TheScouts/wwwroot/css/site.css",
+      "PackagePath": "staticwebassets/css/site.css"
+    },
+    {
+      "Id": "/Users/endritjakupi/Desktop/TheScouts/TheScouts/wwwroot/images/.DS_Store",
+      "PackagePath": "staticwebassets/images/.DS_Store"
+    },
+    {
+      "Id": "/Users/endritjakupi/Desktop/TheScouts/TheScouts/wwwroot/images/job-hunting.jpeg",
+      "PackagePath": "staticwebassets/images/job-hunting.jpeg"
+    },
+    {
+      "Id": "/Users/endritjakupi/Desktop/TheScouts/TheScouts/wwwroot/images/job-search-banner.jpeg",
+      "PackagePath": "staticwebassets/images/job-search-banner.jpeg"
+    },
+    {
+      "Id": "/Users/endritjakupi/Desktop/TheScouts/TheScouts/wwwroot/images/recruitment-illustration.jpeg",
+      "PackagePath": "staticwebassets/images/recruitment-illustration.jpeg"
+    },
+    {
+      "Id": "/Users/endritjakupi/Desktop/TheScouts/TheScouts/wwwroot/js/site.js",
+      "PackagePath": "staticwebassets/js/site.js"
+    },
+    {
+      "Id": "/Users/endritjakupi/Desktop/TheScouts/TheScouts/wwwroot/lib/bootstrap/LICENSE",
+      "PackagePath": "staticwebassets/lib/bootstrap"
+    },
+    {
+      "Id": "/Users/endritjakupi/Desktop/TheScouts/TheScouts/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css"
+    },
+    {
+      "Id": "/Users/endritjakupi/Desktop/TheScouts/TheScouts/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css.map"
+    },
+    {
+      "Id": "/Users/endritjakupi/Desktop/TheScouts/TheScouts/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css"
+    },
+    {
+      "Id": "/Users/endritjakupi/Desktop/TheScouts/TheScouts/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "/Users/endritjakupi/Desktop/TheScouts/TheScouts/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "/Users/endritjakupi/Desktop/TheScouts/TheScouts/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "/Users/endritjakupi/Desktop/TheScouts/TheScouts/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "/Users/endritjakupi/Desktop/TheScouts/TheScouts/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/endritjakupi/Desktop/TheScouts/TheScouts/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css"
+    },
+    {
+      "Id": "/Users/endritjakupi/Desktop/TheScouts/TheScouts/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "/Users/endritjakupi/Desktop/TheScouts/TheScouts/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "/Users/endritjakupi/Desktop/TheScouts/TheScouts/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "/Users/endritjakupi/Desktop/TheScouts/TheScouts/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "/Users/endritjakupi/Desktop/TheScouts/TheScouts/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "/Users/endritjakupi/Desktop/TheScouts/TheScouts/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "/Users/endritjakupi/Desktop/TheScouts/TheScouts/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/endritjakupi/Desktop/TheScouts/TheScouts/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css"
+    },
+    {
+      "Id": "/Users/endritjakupi/Desktop/TheScouts/TheScouts/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "/Users/endritjakupi/Desktop/TheScouts/TheScouts/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "/Users/endritjakupi/Desktop/TheScouts/TheScouts/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "/Users/endritjakupi/Desktop/TheScouts/TheScouts/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "/Users/endritjakupi/Desktop/TheScouts/TheScouts/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "/Users/endritjakupi/Desktop/TheScouts/TheScouts/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "/Users/endritjakupi/Desktop/TheScouts/TheScouts/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/endritjakupi/Desktop/TheScouts/TheScouts/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css"
+    },
+    {
+      "Id": "/Users/endritjakupi/Desktop/TheScouts/TheScouts/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css.map"
+    },
+    {
+      "Id": "/Users/endritjakupi/Desktop/TheScouts/TheScouts/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/endritjakupi/Desktop/TheScouts/TheScouts/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/Users/endritjakupi/Desktop/TheScouts/TheScouts/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css"
+    },
+    {
+      "Id": "/Users/endritjakupi/Desktop/TheScouts/TheScouts/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "/Users/endritjakupi/Desktop/TheScouts/TheScouts/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "/Users/endritjakupi/Desktop/TheScouts/TheScouts/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/endritjakupi/Desktop/TheScouts/TheScouts/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js"
+    },
+    {
+      "Id": "/Users/endritjakupi/Desktop/TheScouts/TheScouts/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "/Users/endritjakupi/Desktop/TheScouts/TheScouts/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "/Users/endritjakupi/Desktop/TheScouts/TheScouts/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "/Users/endritjakupi/Desktop/TheScouts/TheScouts/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js"
+    },
+    {
+      "Id": "/Users/endritjakupi/Desktop/TheScouts/TheScouts/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js.map"
+    },
+    {
+      "Id": "/Users/endritjakupi/Desktop/TheScouts/TheScouts/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js"
+    },
+    {
+      "Id": "/Users/endritjakupi/Desktop/TheScouts/TheScouts/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "/Users/endritjakupi/Desktop/TheScouts/TheScouts/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js"
+    },
+    {
+      "Id": "/Users/endritjakupi/Desktop/TheScouts/TheScouts/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js.map"
+    },
+    {
+      "Id": "/Users/endritjakupi/Desktop/TheScouts/TheScouts/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js"
+    },
+    {
+      "Id": "/Users/endritjakupi/Desktop/TheScouts/TheScouts/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js.map"
+    },
+    {
+      "Id": "/Users/endritjakupi/Desktop/TheScouts/TheScouts/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/endritjakupi/Desktop/TheScouts/TheScouts/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "/Users/endritjakupi/Desktop/TheScouts/TheScouts/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "/Users/endritjakupi/Desktop/TheScouts/TheScouts/wwwroot/lib/jquery-validation/LICENSE.md",
+      "PackagePath": "staticwebassets/lib/jquery-validation/LICENSE.md"
+    },
+    {
+      "Id": "/Users/endritjakupi/Desktop/TheScouts/TheScouts/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.js"
+    },
+    {
+      "Id": "/Users/endritjakupi/Desktop/TheScouts/TheScouts/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.min.js"
+    },
+    {
+      "Id": "/Users/endritjakupi/Desktop/TheScouts/TheScouts/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.js"
+    },
+    {
+      "Id": "/Users/endritjakupi/Desktop/TheScouts/TheScouts/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.min.js"
+    },
+    {
+      "Id": "/Users/endritjakupi/Desktop/TheScouts/TheScouts/wwwroot/lib/jquery/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/endritjakupi/Desktop/TheScouts/TheScouts/wwwroot/lib/jquery/dist/jquery.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.js"
+    },
+    {
+      "Id": "/Users/endritjakupi/Desktop/TheScouts/TheScouts/wwwroot/lib/jquery/dist/jquery.min.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.js"
+    },
+    {
+      "Id": "/Users/endritjakupi/Desktop/TheScouts/TheScouts/wwwroot/lib/jquery/dist/jquery.min.map",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
+    },
+    {
+      "Id": "/Users/endritjakupi/Desktop/TheScouts/TheScouts/wwwroot/resumes/.DS_Store",
+      "PackagePath": "staticwebassets/resumes/.DS_Store"
+    },
+    {
+      "Id": "/Users/endritjakupi/Desktop/TheScouts/TheScouts/wwwroot/resumes/29ceca88-202d-48f4-afe3-4e225d220311_Buna-Rexhepi-Software Engineering.pdf",
+      "PackagePath": "staticwebassets/resumes/29ceca88-202d-48f4-afe3-4e225d220311_Buna-Rexhepi-Software Engineering.pdf"
+    },
+    {
+      "Id": "/Users/endritjakupi/Desktop/TheScouts/TheScouts/wwwroot/resumes/677a1c56-a8e8-4f56-87c0-6093d75e5d09_Jon-Rexhepi-Computer Networks.pdf",
+      "PackagePath": "staticwebassets/resumes/677a1c56-a8e8-4f56-87c0-6093d75e5d09_Jon-Rexhepi-Computer Networks.pdf"
+    },
+    {
+      "Id": "/Users/endritjakupi/Desktop/TheScouts/TheScouts/wwwroot/resumes/6ce7dbee-ee10-4896-a41a-24f24b2ce160_Jon-Rexhepi-Software Engineering.pdf",
+      "PackagePath": "staticwebassets/resumes/6ce7dbee-ee10-4896-a41a-24f24b2ce160_Jon-Rexhepi-Software Engineering.pdf"
+    },
+    {
+      "Id": "/Users/endritjakupi/Desktop/TheScouts/TheScouts/wwwroot/resumes/982de352-de43-4c00-aeb9-d5faba3c0e83_Buna-Rexhepi-Computer Networks.pdf",
+      "PackagePath": "staticwebassets/resumes/982de352-de43-4c00-aeb9-d5faba3c0e83_Buna-Rexhepi-Computer Networks.pdf"
+    },
+    {
+      "Id": "/Users/endritjakupi/Desktop/TheScouts/TheScouts/wwwroot/resumes/a6dfbb56-b658-40ac-9efb-17f796fd59df_Alba-Adili-Computer Networks.pdf",
+      "PackagePath": "staticwebassets/resumes/a6dfbb56-b658-40ac-9efb-17f796fd59df_Alba-Adili-Computer Networks.pdf"
+    },
+    {
+      "Id": "/Users/endritjakupi/Desktop/TheScouts/TheScouts/wwwroot/resumes/ca327354-c971-4def-bccb-995dc233e622_Buna-Rexhepi-Computer Networks.pdf",
+      "PackagePath": "staticwebassets/resumes/ca327354-c971-4def-bccb-995dc233e622_Buna-Rexhepi-Computer Networks.pdf"
+    },
+    {
+      "Id": "/Users/endritjakupi/Desktop/TheScouts/TheScouts/wwwroot/resumes/d52d22d1-c63b-477b-af4a-abfba2658db4_Buna-Rexhepi-Software Engineering.pdf",
+      "PackagePath": "staticwebassets/resumes/d52d22d1-c63b-477b-af4a-abfba2658db4_Buna-Rexhepi-Software Engineering.pdf"
+    },
+    {
+      "Id": "/Users/endritjakupi/Desktop/TheScouts/TheScouts/wwwroot/resumes/e02fc401-3070-4578-933c-d8cc05ad65db_Endrit-Jakupi-Software Engineering.pdf",
+      "PackagePath": "staticwebassets/resumes/e02fc401-3070-4578-933c-d8cc05ad65db_Endrit-Jakupi-Software Engineering.pdf"
+    },
+    {
+      "Id": "/Users/endritjakupi/Desktop/TheScouts/TheScouts/wwwroot/resumes/e349e4a7-8714-4389-92ae-a38bb4ef877d_Jon-Rexhepi-Computer Networks.pdf",
+      "PackagePath": "staticwebassets/resumes/e349e4a7-8714-4389-92ae-a38bb4ef877d_Jon-Rexhepi-Computer Networks.pdf"
+    },
+    {
+      "Id": "/Users/endritjakupi/Desktop/TheScouts/TheScouts/wwwroot/resumes/e6c7c4b6-1acd-4cbb-bdb9-ab8f7a950ddd_Lorik-Hoxha-Software Engineering.pdf",
+      "PackagePath": "staticwebassets/resumes/e6c7c4b6-1acd-4cbb-bdb9-ab8f7a950ddd_Lorik-Hoxha-Software Engineering.pdf"
+    },
+    {
+      "Id": "/Users/endritjakupi/Desktop/TheScouts/TheScouts/wwwroot/resumes/f410af03-e9ca-4d68-a2bc-8761c095383f_Buna-Rexhepi-Computer Networks.pdf",
+      "PackagePath": "staticwebassets/resumes/f410af03-e9ca-4d68-a2bc-8761c095383f_Buna-Rexhepi-Computer Networks.pdf"
+    },
+    {
+      "Id": "/Users/endritjakupi/Desktop/TheScouts/TheScouts/wwwroot/resumes/f473b870-1f5c-4d7b-95f8-c44f78f4d140_Buna-Rexhepi-Computer Networks.pdf",
+      "PackagePath": "staticwebassets/resumes/f473b870-1f5c-4d7b-95f8-c44f78f4d140_Buna-Rexhepi-Computer Networks.pdf"
+    },
+    {
+      "Id": "/Users/endritjakupi/Desktop/TheScouts/TheScouts/wwwroot/resumes/f666032e-a7df-46c2-a45e-3616561653e9_Alba-Adili-Computer Networks.pdf",
+      "PackagePath": "staticwebassets/resumes/f666032e-a7df-46c2-a45e-3616561653e9_Alba-Adili-Computer Networks.pdf"
+    },
+    {
+      "Id": "/Users/endritjakupi/Desktop/TheScouts/TheScouts/wwwroot/resumes/fd3cbed9-8c0f-4ad2-b769-70d8f7a1e65b_Qani-Jusufi-Computer Networks.pdf",
+      "PackagePath": "staticwebassets/resumes/fd3cbed9-8c0f-4ad2-b769-70d8f7a1e65b_Qani-Jusufi-Computer Networks.pdf"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.TheScouts.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.build.TheScouts.props",
+      "PackagePath": "build\\TheScouts.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.TheScouts.props",
+      "PackagePath": "buildMultiTargeting\\TheScouts.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.TheScouts.props",
+      "PackagePath": "buildTransitive\\TheScouts.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

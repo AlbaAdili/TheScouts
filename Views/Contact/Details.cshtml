@@ -1,0 +1,14 @@
+﻿@model TheScouts.Models.Contact
+
+@{
+    ViewData["Title"] = "Contact Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2 class="display-6 my-5">Contact Details</h2>
+<div>
+    <p class="mb-0" style="font-size: 30px;">@Model.Name</p>
+    <p style="font-size: 16px;">@Model.Email</p>
+    <p class="mt-4">@Model.Description</p>
+</div>
+

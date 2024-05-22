@@ -1,0 +1,57 @@
+﻿@{
+    ViewData["Title"] = "Applications";
+}
+
+@model IEnumerable<TheScouts.Models.Application>
+
+<div class="d-flex justify-content-center my-5">
+    <h1 class="display-5">Applications for @ViewBag.PositionName</h1>
+</div>
+<div class="d-flex flex-column align-items-center mb-5">
+    <table class="table jobs-table text-white">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Surname</th>
+                <th>Email</th>
+                <th class="text-nowrap">Phone Number</th>
+                <th>Resume</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model.Any())
+            {
+                @foreach (var application in Model)
+                {
+                    <tr>
+                        <td>@application.Name</td>
+                        <td>@application.Surname</td>
+                        <td>@application.Email</td>
+                        <td>@application.PhoneNumber</td>
+                        <td>
+                            @if (!string.IsNullOrEmpty(application.Resume))
+                            {
+                                <div class="action-buttons">
+                                    <a href="@application.Resume" target="_blank" class="btn button-secondary text-nowrap">Open Resume</a>
+                                    <a href="@application.Resume" download="@($"{application.Name}-{application.Surname}-Resume.pdf")" class="btn button-secondary text-nowrap ml-2">Download Resume</a>
+                                </div>
+                            }
+                            else
+                            {
+                                <p>No resume available</p>
+                            }
+                        </td>
+                    </tr>
+                }
+            }
+            else
+{
+                    <tr>
+                        <td>No results found.</td>
+                    </tr>
+}
+        </tbody>
+    </table>
+</div>
+
+

@@ -1,0 +1,86 @@
+/Users/endritjakupi/Desktop/TheScouts/TheScouts/bin/Debug/net7.0/appsettings.Development.json
+/Users/endritjakupi/Desktop/TheScouts/TheScouts/bin/Debug/net7.0/appsettings.json
+/Users/endritjakupi/Desktop/TheScouts/TheScouts/bin/Debug/net7.0/TheScouts.staticwebassets.runtime.json
+/Users/endritjakupi/Desktop/TheScouts/TheScouts/bin/Debug/net7.0/TheScouts
+/Users/endritjakupi/Desktop/TheScouts/TheScouts/bin/Debug/net7.0/TheScouts.deps.json
+/Users/endritjakupi/Desktop/TheScouts/TheScouts/bin/Debug/net7.0/TheScouts.runtimeconfig.json
+/Users/endritjakupi/Desktop/TheScouts/TheScouts/bin/Debug/net7.0/TheScouts.dll
+/Users/endritjakupi/Desktop/TheScouts/TheScouts/bin/Debug/net7.0/TheScouts.pdb
+/Users/endritjakupi/Desktop/TheScouts/TheScouts/obj/Debug/net7.0/TheScouts.GeneratedMSBuildEditorConfig.editorconfig
+/Users/endritjakupi/Desktop/TheScouts/TheScouts/obj/Debug/net7.0/TheScouts.AssemblyInfoInputs.cache
+/Users/endritjakupi/Desktop/TheScouts/TheScouts/obj/Debug/net7.0/TheScouts.AssemblyInfo.cs
+/Users/endritjakupi/Desktop/TheScouts/TheScouts/obj/Debug/net7.0/TheScouts.csproj.CoreCompileInputs.cache
+/Users/endritjakupi/Desktop/TheScouts/TheScouts/obj/Debug/net7.0/TheScouts.MvcApplicationPartsAssemblyInfo.cache
+/Users/endritjakupi/Desktop/TheScouts/TheScouts/obj/Debug/net7.0/TheScouts.RazorAssemblyInfo.cache
+/Users/endritjakupi/Desktop/TheScouts/TheScouts/obj/Debug/net7.0/TheScouts.RazorAssemblyInfo.cs
+/Users/endritjakupi/Desktop/TheScouts/TheScouts/obj/Debug/net7.0/staticwebassets/msbuild.TheScouts.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/endritjakupi/Desktop/TheScouts/TheScouts/obj/Debug/net7.0/staticwebassets/msbuild.build.TheScouts.props
+/Users/endritjakupi/Desktop/TheScouts/TheScouts/obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.TheScouts.props
+/Users/endritjakupi/Desktop/TheScouts/TheScouts/obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.TheScouts.props
+/Users/endritjakupi/Desktop/TheScouts/TheScouts/obj/Debug/net7.0/staticwebassets.pack.json
+/Users/endritjakupi/Desktop/TheScouts/TheScouts/obj/Debug/net7.0/staticwebassets.build.json
+/Users/endritjakupi/Desktop/TheScouts/TheScouts/obj/Debug/net7.0/staticwebassets.development.json
+/Users/endritjakupi/Desktop/TheScouts/TheScouts/obj/Debug/net7.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
+/Users/endritjakupi/Desktop/TheScouts/TheScouts/obj/Debug/net7.0/scopedcss/bundle/TheScouts.styles.css
+/Users/endritjakupi/Desktop/TheScouts/TheScouts/obj/Debug/net7.0/scopedcss/projectbundle/TheScouts.bundle.scp.css
+/Users/endritjakupi/Desktop/TheScouts/TheScouts/obj/Debug/net7.0/TheScouts.dll
+/Users/endritjakupi/Desktop/TheScouts/TheScouts/obj/Debug/net7.0/refint/TheScouts.dll
+/Users/endritjakupi/Desktop/TheScouts/TheScouts/obj/Debug/net7.0/TheScouts.pdb
+/Users/endritjakupi/Desktop/TheScouts/TheScouts/obj/Debug/net7.0/TheScouts.genruntimeconfig.cache
+/Users/endritjakupi/Desktop/TheScouts/TheScouts/obj/Debug/net7.0/ref/TheScouts.dll
+/Users/endritjakupi/Desktop/TheScouts/TheScouts/bin/Debug/net7.0/Humanizer.dll
+/Users/endritjakupi/Desktop/TheScouts/TheScouts/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.dll
+/Users/endritjakupi/Desktop/TheScouts/TheScouts/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/endritjakupi/Desktop/TheScouts/TheScouts/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Design.dll
+/Users/endritjakupi/Desktop/TheScouts/TheScouts/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Relational.dll
+/Users/endritjakupi/Desktop/TheScouts/TheScouts/bin/Debug/net7.0/Microsoft.Extensions.DependencyModel.dll
+/Users/endritjakupi/Desktop/TheScouts/TheScouts/bin/Debug/net7.0/Mono.TextTemplating.dll
+/Users/endritjakupi/Desktop/TheScouts/TheScouts/bin/Debug/net7.0/System.CodeDom.dll
+/Users/endritjakupi/Desktop/TheScouts/TheScouts/obj/Debug/net7.0/TheScouts.csproj.AssemblyReference.cache
+/Users/endritjakupi/Desktop/TheScouts/TheScouts/obj/Debug/net7.0/TheScouts.csproj.CopyComplete
+/Users/endritjakupi/Desktop/TheScouts/TheScouts/bin/Debug/net7.0/Npgsql.dll
+/Users/endritjakupi/Desktop/TheScouts/TheScouts/bin/Debug/net7.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll
+/Users/endritjakupi/Desktop/TheScouts/TheScouts/bin/Debug/net7.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+/Users/endritjakupi/Desktop/TheScouts 2/TheScouts/bin/Debug/net7.0/appsettings.Development.json
+/Users/endritjakupi/Desktop/TheScouts 2/TheScouts/bin/Debug/net7.0/appsettings.json
+/Users/endritjakupi/Desktop/TheScouts 2/TheScouts/bin/Debug/net7.0/TheScouts.staticwebassets.runtime.json
+/Users/endritjakupi/Desktop/TheScouts 2/TheScouts/bin/Debug/net7.0/TheScouts
+/Users/endritjakupi/Desktop/TheScouts 2/TheScouts/bin/Debug/net7.0/TheScouts.deps.json
+/Users/endritjakupi/Desktop/TheScouts 2/TheScouts/bin/Debug/net7.0/TheScouts.runtimeconfig.json
+/Users/endritjakupi/Desktop/TheScouts 2/TheScouts/bin/Debug/net7.0/TheScouts.dll
+/Users/endritjakupi/Desktop/TheScouts 2/TheScouts/bin/Debug/net7.0/TheScouts.pdb
+/Users/endritjakupi/Desktop/TheScouts 2/TheScouts/bin/Debug/net7.0/Humanizer.dll
+/Users/endritjakupi/Desktop/TheScouts 2/TheScouts/bin/Debug/net7.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+/Users/endritjakupi/Desktop/TheScouts 2/TheScouts/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.dll
+/Users/endritjakupi/Desktop/TheScouts 2/TheScouts/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/endritjakupi/Desktop/TheScouts 2/TheScouts/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Design.dll
+/Users/endritjakupi/Desktop/TheScouts 2/TheScouts/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Relational.dll
+/Users/endritjakupi/Desktop/TheScouts 2/TheScouts/bin/Debug/net7.0/Microsoft.Extensions.DependencyModel.dll
+/Users/endritjakupi/Desktop/TheScouts 2/TheScouts/bin/Debug/net7.0/Mono.TextTemplating.dll
+/Users/endritjakupi/Desktop/TheScouts 2/TheScouts/bin/Debug/net7.0/Npgsql.dll
+/Users/endritjakupi/Desktop/TheScouts 2/TheScouts/bin/Debug/net7.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll
+/Users/endritjakupi/Desktop/TheScouts 2/TheScouts/bin/Debug/net7.0/System.CodeDom.dll
+/Users/endritjakupi/Desktop/TheScouts 2/TheScouts/obj/Debug/net7.0/TheScouts.csproj.AssemblyReference.cache
+/Users/endritjakupi/Desktop/TheScouts 2/TheScouts/obj/Debug/net7.0/TheScouts.GeneratedMSBuildEditorConfig.editorconfig
+/Users/endritjakupi/Desktop/TheScouts 2/TheScouts/obj/Debug/net7.0/TheScouts.AssemblyInfoInputs.cache
+/Users/endritjakupi/Desktop/TheScouts 2/TheScouts/obj/Debug/net7.0/TheScouts.AssemblyInfo.cs
+/Users/endritjakupi/Desktop/TheScouts 2/TheScouts/obj/Debug/net7.0/TheScouts.csproj.CoreCompileInputs.cache
+/Users/endritjakupi/Desktop/TheScouts 2/TheScouts/obj/Debug/net7.0/TheScouts.MvcApplicationPartsAssemblyInfo.cache
+/Users/endritjakupi/Desktop/TheScouts 2/TheScouts/obj/Debug/net7.0/TheScouts.RazorAssemblyInfo.cache
+/Users/endritjakupi/Desktop/TheScouts 2/TheScouts/obj/Debug/net7.0/TheScouts.RazorAssemblyInfo.cs
+/Users/endritjakupi/Desktop/TheScouts 2/TheScouts/obj/Debug/net7.0/staticwebassets/msbuild.TheScouts.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/endritjakupi/Desktop/TheScouts 2/TheScouts/obj/Debug/net7.0/staticwebassets/msbuild.build.TheScouts.props
+/Users/endritjakupi/Desktop/TheScouts 2/TheScouts/obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.TheScouts.props
+/Users/endritjakupi/Desktop/TheScouts 2/TheScouts/obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.TheScouts.props
+/Users/endritjakupi/Desktop/TheScouts 2/TheScouts/obj/Debug/net7.0/staticwebassets.pack.json
+/Users/endritjakupi/Desktop/TheScouts 2/TheScouts/obj/Debug/net7.0/staticwebassets.build.json
+/Users/endritjakupi/Desktop/TheScouts 2/TheScouts/obj/Debug/net7.0/staticwebassets.development.json
+/Users/endritjakupi/Desktop/TheScouts 2/TheScouts/obj/Debug/net7.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
+/Users/endritjakupi/Desktop/TheScouts 2/TheScouts/obj/Debug/net7.0/scopedcss/bundle/TheScouts.styles.css
+/Users/endritjakupi/Desktop/TheScouts 2/TheScouts/obj/Debug/net7.0/scopedcss/projectbundle/TheScouts.bundle.scp.css
+/Users/endritjakupi/Desktop/TheScouts 2/TheScouts/obj/Debug/net7.0/TheScouts.csproj.CopyComplete
+/Users/endritjakupi/Desktop/TheScouts 2/TheScouts/obj/Debug/net7.0/TheScouts.dll
+/Users/endritjakupi/Desktop/TheScouts 2/TheScouts/obj/Debug/net7.0/refint/TheScouts.dll
+/Users/endritjakupi/Desktop/TheScouts 2/TheScouts/obj/Debug/net7.0/TheScouts.pdb
+/Users/endritjakupi/Desktop/TheScouts 2/TheScouts/obj/Debug/net7.0/TheScouts.genruntimeconfig.cache
+/Users/endritjakupi/Desktop/TheScouts 2/TheScouts/obj/Debug/net7.0/ref/TheScouts.dll

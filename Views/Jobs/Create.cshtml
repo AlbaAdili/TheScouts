@@ -1,0 +1,34 @@
+﻿@model TheScouts.Models.Position
+
+@{
+    ViewData["Title"] = "Add Position";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@using (Html.BeginForm("Create", "Jobs", FormMethod.Post, new { @class = "position-form" }))
+{
+    <h2>Add Position</h2>
+
+    <div class="form-content">
+        @Html.LabelFor(model => model.Country, new { @class = "control-label" })
+        @Html.EditorFor(model => model.Country, new { htmlAttributes = new { @class = "form-control", placeholder = "Enter Country" } })
+        @Html.ValidationMessageFor(model => model.Country, "", new { @class = "text-danger" })
+    </div>
+    <div class="form-content">
+        @Html.LabelFor(model => model.City, new { @class = "control-label" })
+        @Html.EditorFor(model => model.City, new { htmlAttributes = new { @class = "form-control", placeholder = "Enter City" } })
+        @Html.ValidationMessageFor(model => model.City, "", new { @class = "text-danger" })
+    </div>
+    <div class="form-content">
+        @Html.LabelFor(model => model.JobTitle, new { @class = "control-label" })
+        @Html.EditorFor(model => model.JobTitle, new { htmlAttributes = new { @class = "form-control", placeholder = "Enter Job Title" } })
+        @Html.ValidationMessageFor(model => model.JobTitle, "", new { @class = "text-danger" })
+    </div>
+    <div class="form-content">
+        @Html.LabelFor(model => model.JobDescription, new { @class = "control-label" })
+        @Html.TextAreaFor(model => model.JobDescription, new { @class = "form-control autosize", placeholder = "Enter Job Description" })
+        @Html.ValidationMessageFor(model => model.JobDescription, "", new { @class = "text-danger" })
+    </div>
+    <button type="submit" class="btn button-primary">Add</button>
+}
+

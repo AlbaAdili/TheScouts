@@ -1,0 +1,50 @@
+﻿@{
+    ViewData["Title"] = "Home";
+}
+@model IEnumerable<TheScouts.Models.Position>
+<div class="d-flex flex-column align-items-center py-5">
+    <h1 class="display-5 text-center">Explore our innovative approach, emphasizing scouting and connecting with the best talents.</h1>
+    <a href="@Url.Action("Index","About")" class="learn-more">Learn more &rsaquo;</a>
+    <img src="~/images/recruitment-illustration.jpeg" alt="Recruitment Illustration" class="recruitment-illustration mt-5" />
+</div>
+<div class="d-flex flex-column align-items-center">
+    <table class="table jobs-table text-white">
+        <thead>
+            <tr>
+                <th class="text-start">Location</th>
+                <th class="text-middle">Job Title</th>
+                <th class="text-end">Job Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model.Any())
+            {
+                @foreach (var position in Model.Take(5))
+                {
+                    <tr>
+                        <td class="text-start">@position.City, @position.Country</td>
+                        <td class="text-middle">@position.JobTitle</td>
+                        <td class="text-end">
+                            <a href="@Url.Action("Details", "Jobs", new { id = position.Id })" class="link-primary">Read More &#x2198;</a>
+                        </td>
+                    </tr>
+                }
+                <tr>
+                    <td class="text-end" colspan="3">
+                        <a href="@Url.Action("Index", "Jobs")" class="link-primary">Show All Open Positions &#x2198;</a>
+                    </td>
+                </tr>
+            }
+            else
+            {
+                <tr>
+                    <td>No results found.</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+<div class="d-flex justify-content-between align-items-center">
+    <img src="~/images/job-hunting.jpeg" alt="Job Hunting Illustration" class="mt-3" style="width: 50%;" />
+    <p>Scout is a soldier or other person sent out ahead of a main force to gather information about the enemy's position, strength, or movements. "The Scouts" represents a group of individuals working together to scout and identify qualified, and good-fit candidates for the best-match job position.</p>
+</div>

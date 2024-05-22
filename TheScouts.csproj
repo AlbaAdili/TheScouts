@@ -1,0 +1,52 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'https' " />
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'http' " />
+  <ItemGroup>
+    <Content Remove="wwwroot\images\" />
+    <Content Remove="wwwroot\resumes\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="wwwroot\images\" />
+    <Folder Include="Views\About\" />
+    <Folder Include="Models\" />
+    <Folder Include="Data\" />
+    <Folder Include="Repositories\" />
+    <Folder Include="Services\" />
+    <Folder Include="Views\Jobs\" />
+    <Folder Include="Migrations\" />
+    <Folder Include="Views\Contact\" />
+    <Folder Include="Views\Account\" />
+    <Folder Include="Views\Application\" />
+    <Folder Include="wwwroot\resumes\" />
+    <Folder Include="Views\Faq\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="7.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.0">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="7.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Views\About\" />
+    <None Remove="Models\" />
+    <None Remove="Data\" />
+    <None Remove="Repositories\" />
+    <None Remove="Services\" />
+    <None Remove="Views\Jobs\" />
+    <None Remove="Migrations\" />
+    <None Remove="Views\Contact\" />
+    <None Remove="Views\Account\" />
+    <None Remove="Views\Application\" />
+    <None Remove="Views\Faq\" />
+  </ItemGroup>
+</Project>

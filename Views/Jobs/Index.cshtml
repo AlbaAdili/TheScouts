@@ -1,0 +1,80 @@
+﻿@{
+    ViewData["Title"] = "Positions";
+}
+@model IEnumerable<TheScouts.Models.Position>
+
+<div class="d-flex justify-content-center my-5">
+    <h1 class="display-5">Open Positions</h1>
+</div>
+<div>
+    @if (User.IsInRole("Admin") || User.IsInRole("SuperAdmin"))
+    {
+        @Html.ActionLink("Add Position", "Create", "Jobs", new { }, new { @class = "btn button-primary" })
+    }
+</div>
+<div class="my-5 d-flex justify-content-between">
+    <div style="display: flex; gap: 20px; align-items: center;">
+        @Html.ActionLink("All", "Search", "Jobs", new { category = "All" }, new { @class = ViewData["Category"] == null || ViewData["Category"] as string == "All" ? "btn category-secondary" : "category-primary" })
+        @Html.ActionLink("Albania", "Search", "Jobs", new { category = "Albania" }, new { @class = ViewData["Category"] as string == "Albania" ? "btn category-secondary" : "category-primary" })
+        @Html.ActionLink("Kosovo", "Search", "Jobs", new { category = "Kosovo" }, new { @class = ViewData["Category"] as string == "Kosovo" ? "btn category-secondary" : "category-primary" })
+        @Html.ActionLink("Macedonia", "Search", "Jobs", new { category = "Macedonia" }, new { @class = ViewData["Category"] as string == "Macedonia" ? "btn category-secondary" : "category-primary" })
+    </div>
+    @using (Html.BeginForm("Search", "Jobs", FormMethod.Get))
+    {
+        <div class="input-group mb-3">
+            <input type="text" class="form-control" style="border-color: #212529; " placeholder="Search Position" name="searchTerm" />
+            <button class="btn button-primary" type="submit">Search</button>
+        </div>
+    }
+</div>
+<div class="d-flex flex-column align-items-center mb-5">
+    <table class="table jobs-table text-white">
+        <thead>
+            <tr>
+                <th class="text-start">Location</th>
+                <th class="text-middle">Job Title</th>
+                <th class="text-end">Job Description</th>
+                @if (User.IsInRole("Admin") || User.IsInRole("SuperAdmin"))
+                {
+                    <th></th>
+                }
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var position in Model)
+            {
+                @if (Model.Any())
+                {
+                    <tr>
+                        <td class="text-start">@position.City, @position.Country</td>
+                        <td class="text-middle">@position.JobTitle</td>
+                        <td class="text-end">
+                            <a href="@Url.Action("Details", "Jobs", new { id = position.Id })" class="link-primary">Read More &#x2198;</a>
+                        </td>
+                        @if (User.IsInRole("Admin") || User.IsInRole("SuperAdmin"))
+                        {
+                            <td>
+                                <div class="action-buttons">
+                                    @Html.ActionLink("Edit", "Edit", "Jobs", new { id = position.Id }, new { @class = "btn button-secondary" })
+                                    @using (Html.BeginForm("Delete", "Jobs", new { id = position.Id }, FormMethod.Post, null, new { onsubmit = "return confirm('Do you want to delete this position?')" }))
+                                    {
+                                        <button type="submit" class="btn button-secondary">Delete</button>
+                                    }
+                                    @Html.ActionLink("Applications", "Applications", "Application", new { id = position.Id }, new { @class = "btn button-secondary" })
+                                </div>
+                            </td>
+                        }
+                    </tr>
+                }
+                else
+                {
+                    <tr>
+                        <td>No results found.</td>
+                    </tr>
+                }
+            }
+        </tbody>
+    </table>
+</div>
+
+

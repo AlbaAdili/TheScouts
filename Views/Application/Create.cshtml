@@ -1,0 +1,53 @@
+﻿@model TheScouts.Models.Application
+
+@{
+    ViewData["Title"] = "Apply";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var jobTitle = ViewData["JobTitle"] as string;
+    var location = ViewData["Location"] as string;
+}
+
+<div class="d-flex justify-content-center my-5">
+    <h1 class="display-5">Open Position</h1>
+</div>
+<h1 class="my-5 display-6 details-title">Apply for @jobTitle in @location</h1>
+<div class="d-flex justify-content-between">
+    @using (Html.BeginForm("Create", "Application", FormMethod.Post, new { @class = "apply-form", enctype = "multipart/form-data", autocomplete = "off" }))
+    {
+        <div class="form-content">
+            @Html.LabelFor(model => model.Name, new { @class = "control-label" })
+            @Html.EditorFor(model => model.Name, new { htmlAttributes = new { @class = "form-control", autocomplete = "off", placeholder = "Enter Name" } })
+            @Html.ValidationMessageFor(model => model.Name, "", new { @class = "text-danger" })
+        </div>
+        <div class="form-content">
+            @Html.LabelFor(model => model.Surname, new { @class = "control-label" })
+            @Html.EditorFor(model => model.Surname, new { htmlAttributes = new { @class = "form-control", autocomplete = "off", placeholder = "Enter Surname" } })
+            @Html.ValidationMessageFor(model => model.Surname, "", new { @class = "text-danger" })
+        </div>
+        <div class="form-content">
+            @Html.LabelFor(model => model.Email, new { @class = "control-label" })
+            @Html.EditorFor(model => model.Email, new { htmlAttributes = new { @class = "form-control", autocomplete = "off", placeholder = "name@example.com" } })
+            @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
+        </div>
+        <div class="form-content">
+            @Html.LabelFor(model => model.PhoneNumber, new { @class = "control-label" })
+            @Html.EditorFor(model => model.PhoneNumber, new { htmlAttributes = new { @class = "form-control", autocomplete = "off", placeholder = "+383 (045) 226 208" } })
+        </div>
+        <div class="form-content">
+            <label for="Resume" class="control-label">Resume (PDF Format)</label>
+            <br />
+            <input type="file" name="Resume" id="Resume" autocomplete="off" onchange="updateFileName()" required />
+            <button type="button" class="btn button-primary" onclick="document.getElementById('Resume').click()">Choose File</button>
+            <span id="selectedFileName"></span>
+            <div>
+                <span class="text-danger" id="resumeError"></span>
+            </div>
+        </div>
+        @Html.HiddenFor(model => model.PositionId, new { autocomplete = "off" })
+        @Html.HiddenFor(model => model.UserId, new { autocomplete = "off" })
+        <button type="submit" class="btn button-primary mt-1">Apply</button>
+    }
+    <div id="filePreview" class="mt-3">
+
+    </div>
+</div>

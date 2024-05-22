@@ -1,0 +1,43 @@
+﻿@model TheScouts.Models.RegisterViewModel
+
+@{
+    ViewData["Title"] = "Register";
+}
+
+@using (Html.BeginForm("Register", "Account", FormMethod.Post, new { @class = "position-form" }))
+{
+    <h2 class="display-6">Register</h2>
+    <div class="form-content">
+        @Html.LabelFor(model => model.Name, new { @class = "control-label" })
+        @Html.EditorFor(model => model.Name, new { htmlAttributes = new { @class = "form-control", placeholder = "Enter Name" } })
+        @Html.ValidationMessageFor(model => model.Name, "", new { @class = "text-danger" })
+    </div>
+    <div class="form-content">
+        @Html.LabelFor(model => model.Surname, new { @class = "control-label" })
+        @Html.EditorFor(model => model.Surname, new { htmlAttributes = new { @class = "form-control", placeholder = "Enter Surname" } })
+        @Html.ValidationMessageFor(model => model.Surname, "", new { @class = "text-danger" })
+    </div>
+    <div class="form-content">
+        @Html.LabelFor(model => model.Email, new { @class = "control-label" })
+        @Html.EditorFor(model => model.Email, new { htmlAttributes = new { @class = "form-control", placeholder = "name@example.com" } })
+        @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
+    </div>
+    <div class="form-content">
+        @Html.LabelFor(model => model.Password, new { @class = "control-label" })
+        @Html.EditorFor(model => model.Password, new { htmlAttributes = new { @class = "form-control", placeholder = "Enter Password" } })
+        @Html.ValidationMessageFor(model => model.Password, "", new { @class = "text-danger" })
+    </div>
+    <div class="form-content">
+        @Html.LabelFor(model => model.ConfirmPassword, new { @class = "control-label" })
+        @Html.EditorFor(model => model.ConfirmPassword, new { htmlAttributes = new { @class = "form-control", placeholder = "Confirm Password" } })
+        @Html.ValidationMessageFor(model => model.ConfirmPassword, "", new { @class = "text-danger" })
+    </div>
+    @*<div class="form-content">
+        @Html.LabelFor(model => model.UserRole, new { @class = "control-label" })
+        @Html.DropDownListFor(model => model.UserRole, (SelectList)ViewBag.UserRoleList, new { @class = "form-control" })
+    </div>*@
+    <button type="submit" class="btn button-primary">Register</button>
+    <div class="form-content">
+        <p>Already have an account? @Html.ActionLink("Login", "Login", "Account", null, new { style = "text-decoration: none;" })</p>
+    </div>
+}

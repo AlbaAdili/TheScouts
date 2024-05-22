@@ -1,0 +1,16 @@
+﻿@model TheScouts.Models.Position
+
+@{
+    ViewData["Title"] = "Position Details";
+}
+
+<div class="d-flex justify-content-center my-5">
+    <h1 class="display-5">Open Position</h1>
+</div>
+<div class="details-container">
+    <p class="display-6 details-title">@Model.JobTitle in @Model.City, @Model.Country</p>
+    <p class="details-description">@Model.JobDescription</p>
+</div>
+<div class="my-5">
+    @Html.ActionLink("Apply Online", "Create", "Application", new { positionId = Model.Id }, new { @class = "btn button-primary" })
+</div>

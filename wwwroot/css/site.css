@@ -1,0 +1,199 @@
+﻿html {
+    position: relative;
+    min-height: 100%;
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main {
+    flex: 1;
+}
+
+.recruitment-illustration {
+    width: 1000px;
+}
+
+.learn-more, .learn-more:hover {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #212529;
+    margin-left: 5px;
+}
+
+.link-primary, .link-primary:hover {
+    font-size: 1.125rem;
+    text-decoration: none;
+    color: white;
+}
+
+table thead tr, tbody tr {
+    height: 100px;
+    vertical-align: middle;
+    font-size: 1.125rem;
+}
+
+table thead tr th, tbody tr td {
+    width: 30%;
+}
+
+.jobs-table {
+    background-color: #212529;
+}
+
+.about-container {
+    background-color: #212529;
+    margin-bottom: 4.5em;
+}
+
+.about-content {
+    padding: 2em;
+    align-items: center;
+}
+
+.about-title {
+    font-size: 1.5rem;
+    color: white;
+}
+
+.about-citation {
+    font-size: 1.5rem;
+    color: white;
+    width: 35%;
+}
+
+.about-desription {
+    color: white;
+    width: 35%;
+}
+
+.position-form {
+    max-width: 500px;
+    margin: auto;
+    padding: 50px 0;
+}
+
+.apply-form {
+    width: 500px;
+    padding-bottom: 50px;
+}
+
+#filePreview {
+    width: 500px;
+    margin-bottom: 4em;
+}
+
+.form-content {
+    margin: 25px 0;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.control-label {
+    margin-bottom: 5px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.text-danger {
+    color: #dc3545;
+}
+
+.action-buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.button-primary {
+    border-color: #212529;
+    color: #212529;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.button-primary:hover {
+    background-color: #212529;
+    color: white;
+}
+
+.button-secondary {
+    border-color: white;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.button-secondary:hover {
+    background-color: white;
+    color: #212529;
+}
+
+.details-container {
+    color: #212529;
+}
+
+.details-title {
+    border-bottom: 1px solid #212529;
+    padding-bottom: 0.5em;
+}
+
+.details-description {
+    white-space: pre-wrap;
+    padding-top: 0.5em;
+}
+
+.contact-information {
+    border-left: 3px solid #212529;
+    padding-left: 0.5em;
+    margin-top: 1.5em;
+}
+
+.authentication-buttons {
+    gap: 15px;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.form-control[disabled] {
+    background-color: transparent;
+}
+
+.category-primary, .category-primary:hover {
+    color: #212529;
+    text-decoration: none;
+    font-size: 1.15rem;
+}
+
+.category-secondary, .category-secondary:hover {
+    background-color: #212529;
+    color: white;
+    text-decoration: none;
+    font-size: 1.15rem;
+}
+
+.statusDropdown {
+    cursor: pointer;
+    height: 45px;
+    border: none;
+    font-size: 1rem;
+}

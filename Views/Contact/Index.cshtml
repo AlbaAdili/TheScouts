@@ -1,0 +1,44 @@
+﻿@{
+    ViewData["Title"] = "Contacts";
+}
+@model IEnumerable<TheScouts.Models.Contact>
+
+<div class="d-flex justify-content-center my-5">
+    <h1 class="display-5">Contacts</h1>
+</div>
+<div class="d-flex flex-column align-items-center mb-5">
+    <table class="table jobs-table text-white">
+        <thead>
+            <tr>
+                <th class="text-start">Name</th>
+                <th class="text-middle">Email</th>
+                <th class="text-end">Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model.Any())
+            {
+                @foreach (var contact in Model)
+                {
+                    <tr>
+                        <td class="text-start">@contact.Name</td>
+                        <td class="text-middle">@contact.Email</td>
+                        <td class="text-end">
+                            <a href="@Url.Action("Details", "Contact", new { id = contact.Id })" class="link-primary">Read More &#x2198;</a>
+                        </td>
+                    </tr>
+                }
+            }
+            else
+            {
+                <tr>
+                    <td>No results found.</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+
+
+

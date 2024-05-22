@@ -1,0 +1,114 @@
+﻿@{
+    ViewData["Title"] = "Applications";
+}
+
+@if (User.IsInRole("Admin") || User.IsInRole("SuperAdmin"))
+{
+    <div class="d-flex justify-content-center my-5">
+        <h1 class="display-5">Applications</h1>
+    </div>
+}
+@if (User.IsInRole("User"))
+{
+    <div class="d-flex justify-content-center my-5">
+        <h1 class="display-5">My Applications</h1>
+    </div>
+}
+<div class="my-5 d-flex justify-content-end">
+    @using (Html.BeginForm("Search", "Application", FormMethod.Get))
+    {
+        <div class="input-group mb-3">
+            <input type="text" class="form-control" style="border-color: #212529; " placeholder="Search Applicant" name="searchTerm" />
+            <button class="btn button-primary" type="submit">Search</button>
+        </div>
+    }
+</div>
+@if (Model.Count > 0)
+{
+    <table class="table jobs-table text-white">
+        <thead>
+            <tr>
+                <th>Job Description</th>
+                @if (User.IsInRole("Admin") || User.IsInRole("SuperAdmin"))
+                {
+                    <th>Name</th>
+                    <th>Surname</th>
+                }
+                <th>Email</th>
+                @if (User.IsInRole("Admin") || User.IsInRole("SuperAdmin"))
+                {
+                    <th class="text-nowrap">Phone Number</th>
+                }
+                <th>Resume</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var application in Model)
+            {
+                <tr>
+                    <td class="text-nowrap">@application.Position?.JobTitle in @application.Position?.City, @application.Position?.Country</td>
+                    @if (User.IsInRole("Admin") || User.IsInRole("SuperAdmin"))
+                    {
+                        <td>@application.Name</td>
+                        <td>@application.Surname</td>
+                    }
+                    <td>@application.Email</td>
+                    @if (User.IsInRole("Admin") || User.IsInRole("SuperAdmin"))
+                    {
+                        <td>@application.PhoneNumber</td>
+                    }
+                    <td>
+                        @if (!string.IsNullOrEmpty(application.Resume))
+                        {
+                            <div class="action-buttons">
+                                <a href="@application.Resume" target="_blank" class="btn button-secondary text-nowrap">Open Resume</a>
+                                <a href="@application.Resume" download="@($"{application.Name}-{application.Surname}-Resume.pdf")" class="btn button-secondary text-nowrap ml-2">Download Resume</a>
+                            </div>
+                        }
+                        else
+                        {
+                            <p>No resume available</p>
+                        }
+                    </td>
+                    <td class="text-nowrap">
+                        @if (User.IsInRole("Admin") || User.IsInRole("SuperAdmin"))
+                        {
+                            <select class="statusDropdown" data-application-id="@application.Id">
+                                <option value="Submitted" selected="@(application.Status == "Submitted")">Submitted </option>
+                                <option value="In Progress" selected="@(application.Status == "In Progress")">In Progress</option>
+                                <option value="Scheduled" selected="@(application.Status == "Scheduled")">Scheduled</option>
+                                <option value="Decision Pending" selected="@(application.Status == "Decision Pending")">Decision Pending</option>
+                                <option value="Finalized" selected="@(application.Status == "Finalized")">Finalized</option>
+                            </select>
+                        }
+                        else
+                        {
+                            @application.Status
+                        }
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p class="text-center mt-5">No applications found.</p>
+}
+<script>
+    $(document).ready(function () {
+        $('.statusDropdown').change(function () {
+            var applicationId = $(this).data('application-id');
+            var selectedStatus = $(this).val();
+            $.ajax({
+                url: '@Url.Action("UpdateStatus", "Application")',
+                type: 'POST',
+                data: {
+                    applicationId: applicationId,
+                    status: selectedStatus
+                }
+            });
+        });
+    });
+</script>
