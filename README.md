@@ -42,26 +42,3 @@ Run the migrations of the project with the following steps:
 
 Once completed the above steps, you should have the required tables in your database. Refresh the database and check for the table creations. 
 
-# Collaborators
-Meet the contributors of the project:
-- [Alba Adili](https://gitlab.com/albaadili)
-- [Endrit Jakupi](https://gitlab.com/endritjakupi)
-- [Ermira Bexheti](https://gitlab.com/ermirab)
-
-# Contributing
-If you want to contribute to the project and make it better, your help is very welcome. Please follow the below steps in order to contribute to the project:
-1.  Fork the repository
-2. Create a new branch for your feature
-3. Make your changes, commit them and push your changes to your forked repository
-4. Open a pull request
-
-Make sure to test your changes thoroughly. Provide tests if applicable and ensure that existing tests pass.  
-If you encounter any issues or have suggestions for improvements, please [open an issue](../../issues) on the repository.
-
-Thank you for contributing to our project!
-
-# Contact
-Feel free to get in touch if you have questions, feedback, or just want to say hello. We welcome contributions and discussions related to the project.
-
-Thank you for your interest!
-
